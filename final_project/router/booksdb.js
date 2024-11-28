@@ -1,3 +1,5 @@
+// booksdb.js is a module that exports a JSON object with 10 books. Each book has an author, title, and an empty reviews object. The reviews object will be populated with reviews from the user. The books object is used to populate the database with books when the server is started. The books object is also used to populate the books collection
+
 let books = {
       1: {"author": "Chinua Achebe","title": "Things Fall Apart", "reviews": {} },
       2: {"author": "Hans Christian Andersen","title": "Fairy tales", "reviews": {} },
